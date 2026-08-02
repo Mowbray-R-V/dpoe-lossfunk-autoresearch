@@ -1,0 +1,13 @@
+{
+  "completed_before_resume": 2,
+  "completed_cells": 4800,
+  "elapsed_seconds_this_invocation": 8462.330844640732,
+  "invocation_complete": true,
+  "last_completed_cell": "r049_s3_anti_pko",
+  "new_cells_this_invocation": 4798,
+  "protocol_version": "mve3-v2-approved-2026-07-18",
+  "replicates": 50,
+  "split": "locked",
+  "total_cells": 4800,
+  "updated_unix": 1784396078.5358372
+}

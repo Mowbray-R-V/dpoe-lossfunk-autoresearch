@@ -1,0 +1,16 @@
+{
+  "verdict_status": "post-review-validity-amendment",
+  "preregistered_kill_rule_fired": true,
+  "h3a_support": false,
+  "h3b_support": false,
+  "conditional_c3": "untested-design-floor-policy-collapse",
+  "h3c_status": "untested-quality-gate-failed",
+  "severity_directions_ok": false,
+  "exploitation_floor": {
+    "controlled_eval_goal_auc_mean": 0.00040291666666666677,
+    "controlled_eval_goal_auc_max": 0.04975,
+    "controlled_cells_at_or_below_0_005": 0.9866666666666667,
+    "controlled_pko_eval_goal_auc_mean": 0.00022333333333333336,
+    "design_floor_detected": true
+  }
+}

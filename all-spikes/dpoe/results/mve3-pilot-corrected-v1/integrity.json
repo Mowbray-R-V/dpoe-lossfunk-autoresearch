@@ -1,0 +1,16 @@
+{
+  "split": "pilot",
+  "replicates": 5,
+  "expected_cells": 480,
+  "present_cells": 480,
+  "missing_count": 0,
+  "invalid_count": 0,
+  "temporary_file_count": 0,
+  "pairing_violation_count": 0,
+  "scenario_violation_count": 0,
+  "missing_examples": [],
+  "invalid_examples": [],
+  "pairing_examples": [],
+  "scenario_examples": [],
+  "pass": true
+}

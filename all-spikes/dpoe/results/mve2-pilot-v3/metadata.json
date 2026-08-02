@@ -1,0 +1,27 @@
+{
+  "config": {
+    "n_arms": 12,
+    "image_size": 16,
+    "feature_size": 4,
+    "source_train_per_arm": 18,
+    "source_cal_per_arm": 8,
+    "ensemble_size": 12,
+    "ridge": 0.8,
+    "steps": 160,
+    "eval_episodes": 200,
+    "bonus_strength": 0.35,
+    "bonus_decay": 0.992,
+    "policy_temperature": 0.16,
+    "online_lr": 0.035,
+    "gate_dev_seeds": 20,
+    "gate_min_spearman_gain": 0.05,
+    "gate_min_auroc_gain": 0.03
+  },
+  "seeds": 3,
+  "seed_start": 60000,
+  "epi_scale": 7.1637184115162995,
+  "alea_scale": 1.3606986383774948,
+  "elapsed_seconds": 13.678739309310913,
+  "rows": 378,
+  "note": "Toy procedural reward heads; not an MLLM experiment."
+}

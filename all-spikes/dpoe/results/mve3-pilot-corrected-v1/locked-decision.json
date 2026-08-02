@@ -1,0 +1,13 @@
+{
+  "basis": "runtime_and_storage_only_no_outcomes_read",
+  "locked_replicates": 50,
+  "pilot_bytes": 8429968,
+  "pilot_replicates": 5,
+  "pilot_seconds": 332.48583294856496,
+  "projection_30_bytes": 50579808,
+  "projection_30_seconds": 1994.9149976913898,
+  "projection_50_bytes": 84299680,
+  "projection_50_seconds": 3324.85832948565,
+  "runtime_cap_seconds": 28800,
+  "storage_cap_bytes": 2147483648
+}

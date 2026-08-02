@@ -1,0 +1,161 @@
+{
+  "tiers": {
+    "controlled": {
+      "1": {
+        "spearman": 0.6469986687416794,
+        "auroc": 0.8500333333333333,
+        "risk_coverage_auc": 0.08714718286409968,
+        "n_points": 400
+      },
+      "2": {
+        "spearman": 0.7095233720210751,
+        "auroc": 0.9241666666666667,
+        "risk_coverage_auc": 0.09561045666556243,
+        "n_points": 400
+      },
+      "3": {
+        "spearman": 0.7078731742073388,
+        "auroc": 0.8991333333333333,
+        "risk_coverage_auc": 0.10899850793196114,
+        "n_points": 400
+      }
+    },
+    "learned": {
+      "1": {
+        "spearman": 0.13763523522022011,
+        "auroc": 0.5789333333333333,
+        "risk_coverage_auc": 0.1604414900066312,
+        "n_points": 400
+      },
+      "2": {
+        "spearman": 0.2201252507828174,
+        "auroc": 0.6556,
+        "risk_coverage_auc": 0.17657056085180975,
+        "n_points": 400
+      },
+      "3": {
+        "spearman": 0.13257401608760053,
+        "auroc": 0.5964666666666667,
+        "risk_coverage_auc": 0.22293514908142079,
+        "n_points": 400
+      }
+    },
+    "shuffled": {
+      "1": {
+        "spearman": 0.16296345602160012,
+        "auroc": 0.624,
+        "risk_coverage_auc": 0.15706271089384044,
+        "n_points": 400
+      },
+      "2": {
+        "spearman": 0.08105825661410383,
+        "auroc": 0.5818,
+        "risk_coverage_auc": 0.21461107356192294,
+        "n_points": 400
+      },
+      "3": {
+        "spearman": 0.08274520465752909,
+        "auroc": 0.5998666666666667,
+        "risk_coverage_auc": 0.2431347972080754,
+        "n_points": 400
+      }
+    },
+    "anti": {
+      "1": {
+        "spearman": -0.4519558247239045,
+        "auroc": 0.25526666666666664,
+        "risk_coverage_auc": 0.27556549471160396,
+        "n_points": 400
+      },
+      "2": {
+        "spearman": -0.4509380683629272,
+        "auroc": 0.23666666666666666,
+        "risk_coverage_auc": 0.3601751361355946,
+        "n_points": 400
+      },
+      "3": {
+        "spearman": -0.4762154763467271,
+        "auroc": 0.23163333333333333,
+        "risk_coverage_auc": 0.39292546712862786,
+        "n_points": 400
+      }
+    }
+  },
+  "trap_prevalence": 0.9666666666666667,
+  "goal_strength_mean": 0.7131927228809184,
+  "reference_competence_min": 1.0,
+  "scenario_by_tier_severity": {
+    "controlled": {
+      "1": {
+        "trap_prevalence": 1.0000000000000004,
+        "mean_trap_strength": 0.282098065843062,
+        "mean_goal_strength": 0.6211145809064227
+      },
+      "2": {
+        "trap_prevalence": 0.9600000000000005,
+        "mean_trap_strength": 0.4005431599497195,
+        "mean_goal_strength": 0.7341799075817096
+      },
+      "3": {
+        "trap_prevalence": 0.9400000000000005,
+        "mean_trap_strength": 0.5130617755573911,
+        "mean_goal_strength": 0.7842836801546228
+      }
+    },
+    "learned": {
+      "1": {
+        "trap_prevalence": 1.0000000000000004,
+        "mean_trap_strength": 0.282098065843062,
+        "mean_goal_strength": 0.6211145809064227
+      },
+      "2": {
+        "trap_prevalence": 0.9600000000000005,
+        "mean_trap_strength": 0.4005431599497195,
+        "mean_goal_strength": 0.7341799075817096
+      },
+      "3": {
+        "trap_prevalence": 0.9400000000000005,
+        "mean_trap_strength": 0.5130617755573911,
+        "mean_goal_strength": 0.7842836801546228
+      }
+    },
+    "shuffled": {
+      "1": {
+        "trap_prevalence": 1.0000000000000004,
+        "mean_trap_strength": 0.282098065843062,
+        "mean_goal_strength": 0.6211145809064227
+      },
+      "2": {
+        "trap_prevalence": 0.9600000000000005,
+        "mean_trap_strength": 0.4005431599497195,
+        "mean_goal_strength": 0.7341799075817096
+      },
+      "3": {
+        "trap_prevalence": 0.9400000000000005,
+        "mean_trap_strength": 0.5130617755573911,
+        "mean_goal_strength": 0.7842836801546228
+      }
+    },
+    "anti": {
+      "1": {
+        "trap_prevalence": 1.0000000000000004,
+        "mean_trap_strength": 0.282098065843062,
+        "mean_goal_strength": 0.6211145809064227
+      },
+      "2": {
+        "trap_prevalence": 0.9600000000000005,
+        "mean_trap_strength": 0.4005431599497195,
+        "mean_goal_strength": 0.7341799075817096
+      },
+      "3": {
+        "trap_prevalence": 0.9400000000000005,
+        "mean_trap_strength": 0.5130617755573911,
+        "mean_goal_strength": 0.7842836801546228
+      }
+    }
+  },
+  "leakage_partial_spearman_aggregate": 0.012429349619923698,
+  "controlled_locked_quality_pass": true,
+  "learned_locked_quality_pass": false,
+  "leakage_guard_pass": true
+}

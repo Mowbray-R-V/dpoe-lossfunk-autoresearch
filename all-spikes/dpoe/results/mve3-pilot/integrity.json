@@ -1,0 +1,22 @@
+{
+  "split": "pilot",
+  "replicates": 5,
+  "expected_cells": 480,
+  "present_cells": 480,
+  "missing_count": 0,
+  "invalid_count": 0,
+  "temporary_file_count": 0,
+  "pairing_violation_count": 675,
+  "scenario_violation_count": 0,
+  "missing_examples": [],
+  "invalid_examples": [],
+  "pairing_examples": [
+    "r0s1:controlled:none!=p:collection_terminal",
+    "r0s1:controlled:none!=p:collection_label",
+    "r0s1:controlled:none!=p:posterior_mean",
+    "r0s1:controlled:none!=k:collection_terminal",
+    "r0s1:controlled:none!=k:collection_label"
+  ],
+  "scenario_examples": [],
+  "pass": false
+}

@@ -1,0 +1,1174 @@
+{
+  "candidates": [
+    {
+      "beta0": 0.1,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.015183333333333333,
+        "oracle_goal_success": 0.07111666666666668,
+        "oracle_minus_none_goal_success": 0.05593333333333334,
+        "oracle_minus_none_return_auc": 0.16235840258563705,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.042749999999999996,
+          "2": 0.07075000000000001,
+          "3": 0.09985
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.15345956104060998,
+          "2": 0.13973092598174913,
+          "3": 0.193884720734552
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.1,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.015183333333333333,
+        "oracle_goal_success": 0.07160000000000001,
+        "oracle_minus_none_goal_success": 0.05641666666666668,
+        "oracle_minus_none_return_auc": 0.2106261656861052,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.04395,
+          "2": 0.07075000000000001,
+          "3": 0.1001
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.15489575558096197,
+          "2": 0.17367643137135824,
+          "3": 0.30330631010599507
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.1,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.015183333333333333,
+        "oracle_goal_success": 0.07163333333333334,
+        "oracle_minus_none_goal_success": 0.05645000000000001,
+        "oracle_minus_none_return_auc": 0.22904629692653494,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.04395,
+          "2": 0.07075000000000001,
+          "3": 0.1002
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.15490825558096202,
+          "2": 0.17367643137135824,
+          "3": 0.3585542038272845
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.0007333333333333333,
+        "oracle_goal_success": 0.03093333333333333,
+        "oracle_minus_none_goal_success": 0.030199999999999998,
+        "oracle_minus_none_return_auc": 0.06641374002079545,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.005,
+          "2": 0.0305,
+          "3": 0.0573
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.028168257516828,
+          "2": 0.05947984869012801,
+          "3": 0.11159311385543041
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.0007333333333333333,
+        "oracle_goal_success": 0.04061666666666667,
+        "oracle_minus_none_goal_success": 0.03988333333333333,
+        "oracle_minus_none_return_auc": 0.09872499071977386,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.0051,
+          "2": 0.04585,
+          "3": 0.0709
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.028301791527843984,
+          "2": 0.10204753393383298,
+          "3": 0.16582564669764477
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.0007333333333333333,
+        "oracle_goal_success": 0.04161666666666666,
+        "oracle_minus_none_goal_success": 0.04088333333333333,
+        "oracle_minus_none_return_auc": 0.12436052711577095,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.0051,
+          "2": 0.04585,
+          "3": 0.0739
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.028314291527843954,
+          "2": 0.10204753393383298,
+          "3": 0.24271975588563577
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.00011666666666666667,
+        "oracle_goal_success": 0.0032500000000000003,
+        "oracle_minus_none_goal_success": 0.0031333333333333335,
+        "oracle_minus_none_return_auc": 0.007172146145702385,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.00045,
+          "2": 0.00335,
+          "3": 0.0059499999999999996
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.003276051583479489,
+          "2": 0.006435546286303218,
+          "3": 0.01180484056732456
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.00011666666666666667,
+        "oracle_goal_success": 0.00885,
+        "oracle_minus_none_goal_success": 0.008733333333333334,
+        "oracle_minus_none_return_auc": 0.0208017138922309,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.00045,
+          "2": 0.01085,
+          "3": 0.01525
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.003276051583479489,
+          "2": 0.023697752245222525,
+          "3": 0.035431337847990796
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.1
+      },
+      "metrics": {
+        "none_goal_success": 0.00011666666666666667,
+        "oracle_goal_success": 0.014383333333333333,
+        "oracle_minus_none_goal_success": 0.014266666666666667,
+        "oracle_minus_none_return_auc": 0.037935353206566436,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.00045,
+          "2": 0.01085,
+          "3": 0.03185
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.003276051583479489,
+          "2": 0.023697752245222525,
+          "3": 0.0868322557909974
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.1
+    },
+    {
+      "beta0": 0.1,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.035399999999999994,
+        "oracle_goal_success": 0.11795,
+        "oracle_minus_none_goal_success": 0.08255000000000001,
+        "oracle_minus_none_return_auc": 0.2594695531271322,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.10200000000000001,
+          "2": 0.1353,
+          "3": 0.11654999999999997
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.2627401995604293,
+          "2": 0.24570047016622354,
+          "3": 0.26996798965474367
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.1,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.035399999999999994,
+        "oracle_goal_success": 0.12136666666666666,
+        "oracle_minus_none_goal_success": 0.08596666666666666,
+        "oracle_minus_none_return_auc": 0.29266825339598806,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.10634999999999999,
+          "2": 0.1353,
+          "3": 0.12244999999999999
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.26925088860624863,
+          "2": 0.2647958298167974,
+          "3": 0.3439580417649176
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.1,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.035399999999999994,
+        "oracle_goal_success": 0.12201666666666666,
+        "oracle_minus_none_goal_success": 0.08661666666666668,
+        "oracle_minus_none_return_auc": 0.3102431370906844,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.10634999999999999,
+          "2": 0.1353,
+          "3": 0.1244
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.2695508886062486,
+          "2": 0.2647958298167974,
+          "3": 0.3963826928490071
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.0129,
+        "oracle_goal_success": 0.06875,
+        "oracle_minus_none_goal_success": 0.055850000000000004,
+        "oracle_minus_none_return_auc": 0.16445720677154174,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.037349999999999994,
+          "2": 0.06970000000000001,
+          "3": 0.09919999999999998
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.15486270014930842,
+          "2": 0.13503948795325382,
+          "3": 0.20346943221206304
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.0129,
+        "oracle_goal_success": 0.07001666666666666,
+        "oracle_minus_none_goal_success": 0.057116666666666656,
+        "oracle_minus_none_return_auc": 0.20710617377130652,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.03865,
+          "2": 0.07075,
+          "3": 0.10064999999999999
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.15650821348979593,
+          "2": 0.16724853062806105,
+          "3": 0.29756177719606264
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.0129,
+        "oracle_goal_success": 0.07008333333333332,
+        "oracle_minus_none_goal_success": 0.057183333333333315,
+        "oracle_minus_none_return_auc": 0.2275499274330049,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.03865,
+          "2": 0.07075,
+          "3": 0.10084999999999997
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.15657071348979587,
+          "2": 0.16724853062806105,
+          "3": 0.3588305381811575
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.002966666666666667,
+        "oracle_goal_success": 0.037866666666666667,
+        "oracle_minus_none_goal_success": 0.0349,
+        "oracle_minus_none_return_auc": 0.08889959753491816,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.011600000000000001,
+          "2": 0.0369,
+          "3": 0.06509999999999999
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.0648047562500361,
+          "2": 0.07174650251090725,
+          "3": 0.13014753384381106
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.002966666666666667,
+        "oracle_goal_success": 0.04526666666666667,
+        "oracle_minus_none_goal_success": 0.042300000000000004,
+        "oracle_minus_none_return_auc": 0.12418785688466186,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.0117,
+          "2": 0.0486,
+          "3": 0.07549999999999998
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.06499928881187705,
+          "2": 0.11085557536871965,
+          "3": 0.19670870647338906
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.14
+      },
+      "metrics": {
+        "none_goal_success": 0.002966666666666667,
+        "oracle_goal_success": 0.04641666666666667,
+        "oracle_minus_none_goal_success": 0.04345,
+        "oracle_minus_none_return_auc": 0.15037004676850171,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.0117,
+          "2": 0.0486,
+          "3": 0.07894999999999999
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.0650242888118771,
+          "2": 0.11085557536871965,
+          "3": 0.2752302761249086
+        },
+        "source_competence_min": 1.0
+      },
+      "tau_reference": 0.14
+    },
+    {
+      "beta0": 0.1,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.050833333333333335,
+        "oracle_goal_success": 0.15308333333333332,
+        "oracle_minus_none_goal_success": 0.10224999999999998,
+        "oracle_minus_none_return_auc": 0.29559565467648763,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.14425,
+          "2": 0.15599999999999997,
+          "3": 0.15899999999999997
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.30891606447350817,
+          "2": 0.2722011374991608,
+          "3": 0.30566976205679386
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    },
+    {
+      "beta0": 0.1,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.050833333333333335,
+        "oracle_goal_success": 0.16268333333333332,
+        "oracle_minus_none_goal_success": 0.11184999999999998,
+        "oracle_minus_none_return_auc": 0.33121362157901946,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.14534999999999998,
+          "2": 0.15599999999999997,
+          "3": 0.18669999999999998
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.3131939986733179,
+          "2": 0.28914982983181925,
+          "3": 0.39129703623192075
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    },
+    {
+      "beta0": 0.1,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.1,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.050833333333333335,
+        "oracle_goal_success": 0.16441666666666663,
+        "oracle_minus_none_goal_success": 0.11358333333333329,
+        "oracle_minus_none_return_auc": 0.34849556825495515,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.14534999999999998,
+          "2": 0.15599999999999997,
+          "3": 0.1919
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.3141814986733179,
+          "2": 0.28914982983181925,
+          "3": 0.4421553762597282
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.02815,
+        "oracle_goal_success": 0.0981666666666667,
+        "oracle_minus_none_goal_success": 0.0700166666666667,
+        "oracle_minus_none_return_auc": 0.23026569714048173,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.0712,
+          "2": 0.10945,
+          "3": 0.11385
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.2312627263843467,
+          "2": 0.20543099966553985,
+          "3": 0.25410336537155886
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.02815,
+        "oracle_goal_success": 0.10133333333333334,
+        "oracle_minus_none_goal_success": 0.07318333333333335,
+        "oracle_minus_none_return_auc": 0.2678152280506826,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.07554999999999999,
+          "2": 0.10955,
+          "3": 0.1189
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.23741453673242358,
+          "2": 0.2269722064202334,
+          "3": 0.3390589409993903
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    },
+    {
+      "beta0": 0.14,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.14,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.02815,
+        "oracle_goal_success": 0.10156666666666667,
+        "oracle_minus_none_goal_success": 0.07341666666666666,
+        "oracle_minus_none_return_auc": 0.2852245139576104,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.07554999999999999,
+          "2": 0.10955,
+          "3": 0.11960000000000001
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.2379645367324236,
+          "2": 0.2269722064202334,
+          "3": 0.3907367987201739
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.25,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.25,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.012933333333333333,
+        "oracle_goal_success": 0.06616666666666667,
+        "oracle_minus_none_goal_success": 0.053233333333333334,
+        "oracle_minus_none_return_auc": 0.1628004469754285,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.03505,
+          "2": 0.0678,
+          "3": 0.09565000000000001
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.15694367516455193,
+          "2": 0.13012928710058064,
+          "3": 0.20132837866115294
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.5,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.5,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.012933333333333333,
+        "oracle_goal_success": 0.06898333333333334,
+        "oracle_minus_none_goal_success": 0.05605000000000001,
+        "oracle_minus_none_return_auc": 0.20202589672024623,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.035949999999999996,
+          "2": 0.07035,
+          "3": 0.10064999999999999
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.15831901547818936,
+          "2": 0.15983264836193023,
+          "3": 0.28792602632061914
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    },
+    {
+      "beta0": 0.18,
+      "clip": 1.75,
+      "config": {
+        "beta0": 0.18,
+        "collection_episodes": 16,
+        "ensemble_lr": 0.025,
+        "ensemble_size": 12,
+        "eta": 2.0,
+        "eval_episodes": 1000,
+        "eval_every": 10,
+        "iterations": 100,
+        "label_sigma": 0.22,
+        "pessimism_lambda": 0.65,
+        "reward_clip": 1.75,
+        "ridge": 0.7,
+        "source_competence": 0.8,
+        "source_episodes": 2000,
+        "source_eval_episodes": 200,
+        "source_max_episodes": 10000,
+        "tau_collect": 0.18,
+        "tau_reference": 0.18
+      },
+      "metrics": {
+        "none_goal_success": 0.012933333333333333,
+        "oracle_goal_success": 0.06926666666666666,
+        "oracle_minus_none_goal_success": 0.056333333333333326,
+        "oracle_minus_none_return_auc": 0.22365311656492293,
+        "passes_solvability": false,
+        "severity_oracle_goal_success": {
+          "1": 0.035949999999999996,
+          "2": 0.07035,
+          "3": 0.10149999999999999
+        },
+        "severity_oracle_minus_none_return_auc": {
+          "1": 0.1585315154781893,
+          "2": 0.15983264836193023,
+          "3": 0.3525951858546491
+        },
+        "source_competence_min": 0.988
+      },
+      "tau_reference": 0.18
+    }
+  ],
+  "report_only_regeneration": {
+    "auc_formula": "trapz(values, checkpoint_index)/(last_checkpoint_index); singleton curve equals its sole value",
+    "evaluation_episodes": 1000,
+    "flat_policy_identity": "For update-free oracle/none policies, normalized AUC equals the checkpoint mean.",
+    "pre_existing_metric_fingerprint_sha256": "0c38a4f4b062c844c8153796ac9f147b54b077ff8f7d61509f083bcd33a600bf",
+    "pre_existing_metrics_bit_identical": true,
+    "purpose": "Add omitted per-severity return-AUC reporting; no grid re-entry or new seeds.",
+    "regenerated_pre_existing_metric_fingerprint_sha256": "0c38a4f4b062c844c8153796ac9f147b54b077ff8f7d61509f083bcd33a600bf"
+  }
+}

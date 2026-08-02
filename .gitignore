@@ -1,0 +1,25 @@
+ideas-roadmap.md
+papers/
+
+# Local environments and Python caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Windows download metadata
+*:Zone.Identifier
+
+# LaTeX/Beamer intermediates; keep source and final PDFs
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+AR/

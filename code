@@ -1,0 +1,26 @@
+# Review 09 — Corrected MVE 3 analysis (RESULTS.md, verdict.json) after review-08
+
+Scope: verify (1) the reclassification from "conditional C3 killed" to "untested at toy scale" against the true-goal floor evidence; (2) residual overreach; (3) consistency with the preregistered decision rules in mve3-protocol.md.
+
+## (1) Reclassification is justified — verified against the artifacts
+
+- I recomputed the floor from `cell_summary.csv`: controlled-tier `eval_goal_auc` is 0 or 0.0005 per inspected cell (at most one goal hit in 2,200 evaluation episodes), and `final_return` is identical to 16 decimals across all eight factorial cells within a scenario — the factors did not move the exploitation policy at all. Meanwhile `collection_goal_auc` ≈ 0.97 (replicate 0, severity 1): the posterior identifies the goal; exploitation cannot act on it. This matches review-08's anchoring arithmetic (~12-nat `pi_ref` gate vs. clipped ΔQ ≤ 2.5) and the reported summary numbers (mean 0.0004, P+K+O 0.0002, 98.7% ≤ 0.005, max 0.0498), which `analyze.py:141` (`exploitation_floor`) computes directly from `eval_goal_auc`.
+- Under a universal reachability floor the contrasts are tie-flips among reference-plausible terminals and cannot adjudicate coupling in either direction. The protocol itself makes goal-reachability a validity precondition on one side ("Low hacking achieved by never reaching the true goal is policy collapse, not support"); symmetry requires the same for a kill. "Untested-design-floor-policy-collapse" is the correct call. The post-hoc 1% threshold is not doing any work: the observed mean is 25× below it, so the classification is threshold-insensitive.
+
+## (2) Overreach — essentially clean
+
+RESULTS.md claims no support anywhere, labels the floor check "post-review diagnostic," keeps H3c at "untested-quality-gate-failed" (learned AUROC 0.579–0.656 fails the ≥0.70 gate at every severity), and repeats that submitted frozen-MLLM C3 is untested by design. verdict.json fields match RESULTS.md exactly. LEARNINGS.md's C3 row and design-floor paragraph are consistent with the reclassification. One latent risk, not an overreach yet: "H3b moderation support: **False**" sits on the same floor — downstream text must not cite it as evidence *against* moderation (the prereg's "weaken causal coupling" branch); it is uninformative here, same as H3a.
+
+## (3) One preregistered rule DOES literally fire against the reclassification — disclose it
+
+The prereg kill rule — "controlled-calibrated signal passes its quality target, but full matches/loses to P+K or O … or `I3` is non-positive" — is satisfied by the locked data: quality passed (AUROC 0.850–0.924, Spearman 0.647–0.710), full lost to O (−0.0021, simultaneous CI [−0.0058, −0.0002], Holm p < 0.001) and to P+O, and I3 is non-positive. The reclassification therefore *overrides* a fired preregistered rule. The override is right, but it is a preregistration deviation and must be labeled as one.
+
+**BLOCKING B1:** RESULTS.md's header "## Preregistered verdict" (RESULTS.md:50) mislabels a post-hoc-amended verdict as preregistered. Retitle it (e.g. "Verdict (post-review validity amendment)") and add one disclosure sentence: the preregistered kill rule's conditions were met, and the kill is set aside because that rule presupposes a reachable goal, per the manipulation check above; the amendment was adopted after independent review (see reviews/review-08.md), before any rerun. The `exploitation_floor` docstring in analyze.py already says this ("does not convert this locked run into a new confirmatory test") — it just needs to appear in the artifact readers will actually cite.
+
+## Non-blocking
+
+1. Add the H3b caveat above (one clause: H3b is likewise floor-uninformative).
+2. Review-08 carryovers still open in RESULTS.md: trap prevalence/strength per tier and severity (protocol requires it; only aggregate 0.967/0.713 is shown), minimum locked `reference_competence`, and disclosure of the learned-tier oracle RMS rescaling.
+3. Entropy/KL/timeout checkpoint metrics are in cell_summary.csv but unreported; a one-line pointer suffices.
+
+VERDICT: REVISE — B1 only: relabel the verdict section as a post-review amendment and explicitly disclose that the preregistered kill rule fired and why it is overridden.

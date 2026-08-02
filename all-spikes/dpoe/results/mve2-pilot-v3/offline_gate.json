@@ -1,0 +1,12 @@
+{
+  "n_points": 720,
+  "epi_spearman": 0.16160499280798507,
+  "alea_spearman": 0.09525928226456198,
+  "shuffled_spearman": -0.029157142149836963,
+  "epi_auroc": 0.5323971193415638,
+  "alea_auroc": 0.47742798353909466,
+  "shuffled_auroc": 0.47819958847736627,
+  "epi_risk_coverage_auc": 0.170053528471504,
+  "shuffled_risk_coverage_auc": 0.18859502396052363,
+  "pass": true
+}

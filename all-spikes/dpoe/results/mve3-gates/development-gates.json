@@ -1,0 +1,47 @@
+{
+  "protocol_version": "mve3-v2-approved-2026-07-18",
+  "split": "development",
+  "replicates": 20,
+  "source_competence_min": 1.0,
+  "source_competence_mean": 1.0,
+  "trap_prevalence": 0.9,
+  "goal_strength_mean": 0.7124511416247823,
+  "severities": {
+    "1": {
+      "controlled_spearman": 0.7447029180827376,
+      "controlled_auroc": 0.9383333333333334,
+      "controlled_risk_coverage_auc": 0.08699596084890591,
+      "learned_spearman": 0.18237138169459743,
+      "learned_auroc": 0.5810416666666667,
+      "learned_risk_coverage_auc": 0.1856644927677785,
+      "leakage_partial_spearman": 0.0943815132635089,
+      "n_points": 160
+    },
+    "2": {
+      "controlled_spearman": 0.7231278565568967,
+      "controlled_auroc": 0.9,
+      "controlled_risk_coverage_auc": 0.08810233421052568,
+      "learned_spearman": 0.22503222782139928,
+      "learned_auroc": 0.64375,
+      "learned_risk_coverage_auc": 0.15595544820495175,
+      "leakage_partial_spearman": 0.05654388006122111,
+      "n_points": 160
+    },
+    "3": {
+      "controlled_spearman": 0.7404810734794329,
+      "controlled_auroc": 0.9208333333333333,
+      "controlled_risk_coverage_auc": 0.10230674436276854,
+      "learned_spearman": 0.17060822688386265,
+      "learned_auroc": 0.6141666666666666,
+      "learned_risk_coverage_auc": 0.20332143401470573,
+      "leakage_partial_spearman": -0.018359471370873678,
+      "n_points": 160
+    }
+  },
+  "controlled_quality_pass": true,
+  "learned_development_gate_pass": false,
+  "leakage_partial_spearman_aggregate": 0.04244973355709668,
+  "leakage_guard_pass": true,
+  "source_gate_pass": true,
+  "proceed": true
+}
